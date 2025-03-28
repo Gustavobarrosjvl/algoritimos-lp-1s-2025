@@ -5,9 +5,9 @@ int main(int argc, char* argv[]){
     float altura;
     float peso;
     float imc;
-    printf ("digite a altura: ");
+    printf ("digite a altura (Metros): ");
     scanf("%f", &altura);
-    printf ("digite o peso: ");
+    printf ("digite o peso (KG): ");
     scanf("%f", &peso);
 
     imc = peso /(altura * altura);
