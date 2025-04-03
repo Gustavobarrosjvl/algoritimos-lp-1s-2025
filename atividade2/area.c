@@ -40,7 +40,7 @@ int main(int argc, char* argv[]){
             printf("Quadrado\n");
             printf("Digite a medida do lado do quadrado: ");
             scanf("%f", &lado);
-            float area = powf(lado,2);
+            area = powf(lado,2);
             break;
 
         case 'r':
