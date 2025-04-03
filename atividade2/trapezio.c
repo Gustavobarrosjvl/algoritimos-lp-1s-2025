@@ -5,18 +5,18 @@
 
 int main(int argc, char* argv[]){
 
-    float basemaior, basemenor, altura, area;
+    float B , b, A, area;
 
     printf("Digite a medida da base maior do trapezio: ");
-    scanf("%f", &basemaior);
+    scanf("%f", &B);
 
     printf("Digite a medida da base menor do trapezio: ");
-    scanf("%f", &basemenor);
+    scanf("%f", &b);
 
     printf("Digite a medida da altura do trapezio: ");
-    scanf("%f", &altura);
+    scanf("%f", &A);
 
-    area = (basemaior + basemenor) * altura /2;
+    area = (B + b) * A /2;
     printf("A area do trapezio eh %.2f\n", area);
 
     return 0;
