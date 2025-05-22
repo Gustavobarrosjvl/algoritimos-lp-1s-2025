@@ -6,20 +6,20 @@ int main(int argc, char* argv[]){
     int x, y, z;
 
     if(argc != 3 && argc !=4){
-        printf("Informe 2 ou 3 argumentos:");
+        printf("Informe 2 ou 3 argumentos.");
         return 1;
     }
 
     if (argc == 3){
         x = atoi(argv[1]);
         y = atoi(argv[2]);
-        printf("%d", x, y, menor_2n(x, y));
+        printf("O menor numero eh: %d", menor_2n(x, y));
     }
     else{
         x = atoi(argv[1]);
         y = atoi(argv[2]);
         z = atoi(argv[3]);
-        printf("%d", x, y, menor_3n(x, y, z));
+        printf("O menor numero eh: %d",menor_3n(x, y,z));
     }
     return 0;
 }

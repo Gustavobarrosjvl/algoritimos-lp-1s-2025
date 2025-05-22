@@ -17,15 +17,15 @@ int maior_3n(int a, int b, int c){
 
 int menor_2n(int a, int b){
     int menor;
-    if(a < b){
-        return a;
+    if(a > b){
+        return b;
     }
     else{
-        menor = b;
+        menor = a;
     }
     return menor;
 }
 
 int menor_3n(int a, int b, int c){
-    return menor_2n(menor_2n(a,b), c);
+    return menor_2n(menor_2n(a,b),c);
 }
