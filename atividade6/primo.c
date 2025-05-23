@@ -19,12 +19,12 @@ int main (int argc, char* argv[]){
     }
 
     if (primo){
-        printf("%d eh um numero primo.\n", numero);
+        printf("%d eh um numero primo!\n", numero);
     } else{
         if(numero <= 1){
             printf("Nao eh um numero primo!\n");
         }else{
-         printf("Nao eh um numero primo");
+         printf("Nao eh um numero primo!");
         }
     }
 

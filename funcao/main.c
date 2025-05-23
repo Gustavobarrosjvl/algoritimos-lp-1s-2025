@@ -1,27 +1,36 @@
 #include <stdio.h>
-
-#define TAM_NOME 64
-
-typedef struct Aluno{
-    char nome[TAM_NOME];
-    float nota;
-} Aluno;
-
-void imprimir_aluno(struct Aluno a){
-    printf("\nNome: %sNota: %.2f\n", a.nome, a.nota);
-}
+#include <string.h>
+#include <stdlib.h>
+#include <biblioteca.h>
 
 int main(int argc, char* argv[]){
 
-    int n = 5;
-    Aluno alunos[n];
+    if(argc < 3){
+        printf("Argumentos Invalidos");
+        return 1;
+    }
 
-    printf("Digite o nome do aluno 0: ");
-    fgets(alunos[0].nome, TAM_NOME, stdin);
-    printf("Digite a nota do aluno 0: ");
-    scanf("%f", &alunos[0].nota);
+    if(strcmp(argv[1], "-maior") == 0){
+        if(argc != 4){
+            printf("Argumentos Invalidos");
+            return 1;
+        }
+    
+        int x = atoi(argv[2]);
+        int y = atoi(argv[3]);
+        printf("%d", maior_2n(x, y));
+    }
 
-    imprimir_aluno(alunos[0]);
+    if(strcmp(argv[1], "-primo") == 0){
+        if(argc == 3){
+        printf("Argumentos Invalidos");
+        return 1;
+        }
+
+        int x = atoi(argv[2]);
+        printf("%d", verificar_numero_primo(x));
+
+    }
 
     return 0;
 }
