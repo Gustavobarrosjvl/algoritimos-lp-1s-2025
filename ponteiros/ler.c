@@ -5,7 +5,7 @@
 int main(int argc, char* argv[]){
 
     char texto[MAX_TXT];
-    FILE *sexta = fopen("sexta.txt", "r");
+    FILE *sexta = fopen(argv[1], "r");
 
     if(sexta == NULL){
         printf("erro ao abrir arquivo.");
