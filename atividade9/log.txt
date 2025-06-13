@@ -1,0 +1,33 @@
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 2 sorteado = 2SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 2 sorteado = 2SORTEADO!
+minimo = 1 maximo = 6 esperado = 2 sorteado = 2SORTEADO!
+minimo = 1 maximo = 6 esperado = 2 sorteado = 2SORTEADO!
+minimo = 1 maximo = 6 esperado = 2 sorteado = 2SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 5 sorteado = 5SORTEADO!
+minimo = 1 maximo = 6 esperado = 3 sorteado = 3SORTEADO!
+minimo = 1 maximo = 6 esperado = 3 sorteado = 3SORTEADO!
+minimo = 1 maximo = 6 esperado = 3 sorteado = 3SORTEADO!
+minimo = 1 maximo = 6 esperado = 3 sorteado = 3SORTEADO!
+minimo = 1 maximo = 6 esperado = 6 sorteado = 6
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 3 sorteado = 3
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 3 sorteado = 3
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 6 sorteado = 6
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 6 sorteado = 6
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 6 sorteado = 6
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 4 sorteado = 4
+SORTEADO!
+minimo = 1 maximo = 6 esperado = 4 sorteado = 4
